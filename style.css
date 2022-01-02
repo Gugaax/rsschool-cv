@@ -1,0 +1,17 @@
+.header {
+  width: auto;
+  background: rgb(255, 242, 127);
+  height: 30%;
+}
+
+.main {
+  height: 60%;
+  width: auto;
+  background: blue;
+}
+
+.footer {
+  width: auto;
+  background: chartreuse;
+  height: 10%;
+}
