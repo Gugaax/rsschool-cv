@@ -1,58 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My CV</title>
   </head>
   <body>
-    <div class="header_main">
-      <div class="header">
-        <h1>Aleksandr Kakhno</h1>
-        <h3>Junior JS developer</h3>
-        <img class="profile-photo" src="image1.jpg" alt="my photo">
+    <header>
+      <div class="header_container">
+        <nav class="nav_header">
+          <ul class="nav_list">
+            <li><a class="nav_item" href="#about">About Me</a></li>
+            <li><a class="nav_item" href="#contacts">Contacts</a></li>
+            <li><a class="nav_item" href="#skills">Skills</a></li>
+            <li><a class="nav_item" href="#code">My code</a></li>
+            <li><a class="nav_item" href="#project">My project</a></li>
+            <li><a class="nav_item" href="#education">Education</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="main">
-        <h2>Contacts</h2>
-        <ul>
-          <li>Belarus, Gomel</li>
-          <li>Phone: +375291317396</li>
-          <li>Email: Gugaax@gmail.com</li>
-          <li>GitHub: Gugaax</li>
-        </ul>
-        <h2>About Me</h2>
-        <p>
-          Hello. My name is Aleksander. I live and work in Gomel. I really want
-          to learn the JS language. I like working in a team. I have such traits
-          as patience, perseverance and a desire to go towards my goal.
-        </p>
-        <h2>Skills</h2>
-        <ul>
-          <li>courses code-basics HTML, CSS, JS</li>
-          <li>courses WebReference HTML, CSS</li>
-        </ul>
-        <h2>My code</h2>
-        <code>
-          function multiply (a, b) {<br>
-          return(a*b)<br>
-          }
-        </code>
-        <h2>My project</h2>
-        <a href="https://gugaax.github.io/rsschool-cv/"
-          >My CV - is my first project</a
-        >
-        <h2>language</h2>
-        <p>Englich A 1+ but I strive to improve it....</p>
+    </header>
+    <main>
+      <div class="main_container">
+        <div class="main_cotainer_me">
+          <h1>Aleksandr Kakhno</h1>
+          <img class="profile-photo" src="./image1.jpg" alt="my photo" />
+          <h3>Junior JS developer</h3>
+          <div class="main_container_contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li>Belarus, Gomel</li>
+              <li>Phone: +375291317396</li>
+              <li>Email: Gugaax@gmail.com</li>
+              <li>GitHub: Gugaax</li>
+            </ul>
+          </div>
+        </div>
+        <div class="main_container_container">
+          <div class="main_container_about" id="about">
+            <h2>About Me</h2>
+            <p>
+              Hello. My name is Aleksander. I live and work in Gomel.<br />
+              I really want to learn the JS language. I like working in a
+              team.<br />
+              I have such traits as patience, perseverance and a desire to go
+              towards my goal.
+            </p>
+          </div>
+          <div class="main_container_skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>courses code-basics HTML, CSS, JS</li>
+              <li>courses WebReference HTML, CSS</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="main_container_code" id="code">
+            <h2>My code</h2>
+            <pre>
+
+      function multiply (a, b) {
+
+        return(a * b)
+      
+      }
+            </pre>
+          </div>
+          <div class="main_container_project" id="project">
+            <h2>My project</h2>
+            <a
+              class="first_project"
+              href="https://gugaax.github.io/rsschool-cv/"
+              target="_blank"
+              >My CV - is my first project</a
+            >
+          </div>
+          <div class="main_container_education" id="education">
+            <h2>Education and Language</h2>
+            <p>I have a higher economic and legal education.</p>
+            <p>Englich A 1+ but I strive to improve it....</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="footer">
-      <p class="year">2022</p>
-      <a href="https://rs.school/js/"
-        ><img class="footer_image_rs" src="rs_school_js.svg" alt="logo RS"></a>
-      <a href="https://github.com/Gugaax">
-        <img class="footer_github" src="github.png" alt="image_GitHub"></a>
-    </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <a href="https://rs.school/js/" target="_blank"
+          ><img class="footer_image_rs" src="./rs_school_js.svg" alt="logo RS"
+        /></a>
+        <p>2022</p>
+        <a href="https://github.com/Gugaax" target="_blank">
+          <img class="footer_github" src="./github.png" alt="image_GitHub"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
