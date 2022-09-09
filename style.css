@@ -77,8 +77,8 @@ body {
 
 .profile-photo {
   border-radius: 55%;
-  width: 330px;
-  height: 300px;
+  width: 250px;
+  height: auto;
 }
 
 .main_cotainer_me {
@@ -97,10 +97,15 @@ body {
 }
 
 .main_container_contacts {
-  background-color: rgb(168, 248, 145);
   height: 220px;
   text-align: center;
   border-radius: 3%;
+  margin-top: 80px;
+  border: thick double rgb(168, 248, 145);
+}
+
+.main_container_contacts h2 {
+  margin-top: 20px;
 }
 
 .first_project {
