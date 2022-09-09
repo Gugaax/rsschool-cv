@@ -1,3 +1,6 @@
 # My CV for RSSchool
-+ https://Gugaax.github.io/rsschool-cv/
+
+# My CV Markdown
 + https://Gugaax.github.io/rsschool-cv/cv
+# My CV HTML+CSS
++ https://Gugaax.github.io/rsschool-cv/
